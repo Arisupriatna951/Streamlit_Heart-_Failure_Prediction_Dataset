@@ -15,22 +15,31 @@ st.markdown(
 """
 )
 
+col1, col2 = st.columns(2)
 
-Age = st.number_input("Masukan Umur", 10,100,10)
+with col1 :
+  Age = st.number_input("Masukan Umur", 10,100,10)
 
-Sex = st.selectbox("Jenis kelamin", options=('  ' , 'Laki-Laki', 'Perempuan'))
+with col2 :
+  Sex = st.selectbox("Jenis kelamin", options=('  ' , 'Laki-Laki', 'Perempuan'))
 
-CPT = st.selectbox("Masukan Jenis Sakit dada", options=('  ', 'ATA: Atypical Angina', 'NAP: Non-Anginal Pain', 'ASY: Asymptomatic'))
+with col1 :
+  CPT = st.selectbox("Masukan Jenis Sakit dada", options=('  ', 'ATA: Atypical Angina', 'NAP: Non-Anginal Pain', 'ASY: Asymptomatic'))
 
-RestingBp = st.number_input("Masukan Jumlah Tekanan darah mmHg ", 94,200,150)
+with col2 :
+  RestingBp = st.number_input("Masukan Jumlah Tekanan darah mmHg ", 94,200,150)
 
-choles = st.number_input(" Masukan Data Kolesterol serum ", 126, 564, 211)
+with col1 :
+  choles = st.number_input(" Masukan Data Kolesterol serum ", 126, 564, 211)
 
-Fasting = st.selectbox("Masukan Kadar gula darah", options=(' ','YES' , 'NO'))
+with col2 :
+  Fasting = st.selectbox("Masukan Kadar gula darah", options=(' ','YES' , 'NO'))
 
-RestingECG = st.selectbox("Masukan Data Electrocardiogram (ECG) istirahat", options=(' ' ,'Normal','Abnormality','LVH'))
+with col1 :
+  RestingECG = st.selectbox("Masukan Data Electrocardiogram (ECG) istirahat", options=(' ' ,'Normal','Abnormality','LVH'))
 
-MaxHR = st.number_input("Masukan Denyut jantung maksimum", 71, 202,103)
+with col2 :
+  MaxHR = st.number_input("Masukan Denyut jantung maksimum", 71, 202,103)
 
 Exercise = st.selectbox("Masukan Angina akibat olahraga", options=('  ' , 'YES' , 'NO'))
 
