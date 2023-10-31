@@ -147,6 +147,21 @@ sns.heatmap(df.corr(), annot=True)
 ```
 ![](heatmap.png)
 
+##Visualisasi
+Disini saya akan menampilkan data yang terkena heart disease  :
+
+Berikut perintah untuk menampilkan Grafifbar ChestPaintType : 
+```python
+sns.countplot(x="ChestPainType", data=df,hue="HeartDisease")
+plt.show()
+```
+![](Eda.png)
+
+Berikut perintah untuk menampilkan Grafifbar ExerciseAngina  : 
+```python
+sns.countplot(x="ExerciseAngina", data=df,hue="HeartDisease")
+plt.show()
+```
 
 ## Modeling
 Ditahap ini saya akan membuat feature dari semua kolom dengan perintah berikut : 
