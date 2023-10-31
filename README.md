@@ -138,7 +138,8 @@ Selanjutnya saya akan melakukan pengecekan dataframe untuk memastikan tidak ada 
 ```python
 sns.heatmap(df.isnull())
 ```
-![]((isnull.png)
+![](isnull.png)
+
 Alhasil tidak ada data yang bernilai null dan data terlihat aman, disini saya akan mengecek matrik korelasi nya dengan peritnah : 
 
 ```python
@@ -220,6 +221,5 @@ Akurasi data training :  0.8596730245231607
 
 ## Deployment
 
-https://appheart-failurepredictiondataset-goqwbbwhmx4zkeuqncxnix.streamlit.app/
 ![](ui.png)
-
+https://appheart-failurepredictiondataset-goqwbbwhmx4zkeuqncxnix.streamlit.app/
