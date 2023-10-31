@@ -18,7 +18,7 @@ st.markdown(
 col1, col2 = st.columns(2)
 
 with col1 :
-  Age = st.number_input("Masukan Umur", 10,100,10)
+  Age = st.number_input("Masukan Umur", 28,100,28)
 
 with col2 :
   Sex = st.selectbox("Jenis kelamin", options=('  ' , 'Laki-Laki', 'Perempuan'))
@@ -27,10 +27,10 @@ with col1 :
   CPT = st.selectbox("Masukan Jenis Sakit dada", options=('  ', 'ATA: Atypical Angina', 'NAP: Non-Anginal Pain', 'ASY: Asymptomatic'))
 
 with col2 :
-  RestingBp = st.number_input("Masukan Jumlah Tekanan darah mmHg ", 94,200,150)
+  RestingBp = st.number_input("Masukan Jumlah Tekanan darah mmHg ", 0,200,0)
 
 with col1 :
-  choles = st.number_input(" Masukan Data Kolesterol serum ", 126, 564, 211)
+  choles = st.number_input(" Masukan Data Kolesterol serum ", 0, 603, 0)
 
 with col2 :
   Fasting = st.selectbox("Masukan Kadar gula darah", options=(' ','YES' , 'NO'))
@@ -39,11 +39,11 @@ with col1 :
   RestingECG = st.selectbox("Masukan Data Electrocardiogram (ECG) istirahat", options=(' ' ,'Normal','Abnormality','LVH'))
 
 with col2 :
-  MaxHR = st.number_input("Masukan Denyut jantung maksimum", 71, 202,103)
+  MaxHR = st.number_input("Masukan Denyut jantung maksimum", 60, 202,60)
 
 Exercise = st.selectbox("Masukan Angina akibat olahraga", options=('  ' , 'YES' , 'NO'))
 
-oldpeak = st.number_input("Masukan Data Oldpeak / Aktivitas Jantung Selama depresi fisik atau tes olahraga", 0.0, 6.2, 3.2)
+oldpeak = st.number_input("Masukan Data Oldpeak / Aktivitas Jantung Selama depresi fisik atau tes olahraga", -2.6, 6.2, 0)
 
 ST_Slope = st.selectbox("Masukan Data Slope Perubahan bentuk segmen ST", options=('  ' , 'Up: upsloping' , 'Flat: flat', 'Down: downsloping'))
 
