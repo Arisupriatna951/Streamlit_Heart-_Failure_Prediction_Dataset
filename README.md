@@ -43,30 +43,30 @@ Dataset "Heart Failure Prediction"ini adalah hasil total data observasi 1190 kal
 [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data).
 
 ### Variabel-variabel pada Heart Disease Prediction adalah sebagai berikut:
-  **1. Age** : merupakan umur pasien dalam satuan tahun
 
-  **2. Sex** : merupakan jenis kelamin pasien meliputi [M: Male, F: Female]
+1. **Age**   : Umur pasien dalam tahun._`int64`_
 
-  **3. ChestPainType** : chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+2. **Sex**   : Jenis kelamin pasien (M: Laki-laki, F: Perempuan)._`int64`_
 
-  **4. RestingBP** : sting blood pressure [mm Hg]
+3. **ChestPainType**   : Jenis nyeri dada yang dirasakan oleh pasien (TA: Angina Tipikal, ATA: Angina Atipikal, NAP : Nyeri Non-Anginal, ASY: Asimtomatik)._`int64`_
 
-  **5. Choleol** : serum cholesterol [mm/dl]
+4. **RestingBP**   : Tekanan darah istirahat pasien dalam satuan mm Hg._`int64`_
 
-  **6. Fasting** : fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+5. **Cholesterol**   : Kolesterol serum dalam darah pasien dalam satuan mm/dL._`int64`_
 
-  **7. RestiECG** : resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV) LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+6. **FastingBS**   : Kadar gula darah puasa (1: Jika lebih dari 120 mg/dL, 0: Jika tidak)._`int64`_
 
-  **8. MaxHR** : maximum heart rate achieved [Numeric value between 60 and 202]
+7. **RestingECG** : Hasil elektrokardiogram (Normal: Normal, ST: Terdapat abnormalitas gelombang ST-T seperti inversi gelombang T atau elevasi atau depresi ST sebesar >0.05 mV, LVH: Kemungkinan atau pasti ada pembesaran ventrikel kiri berdasarkan kriteria Estes')._`int64`_
 
-  **9. ExerciseAngina** : exercise-induced angina [Y: Yes, N: No]
+8. **MaxHR** : Detak jantung maksimum yang dapat dicapai oleh pasien (nilai numerik antara 60 hingga 202)._`int64`_
 
-  **10. Oldpeak** : oldpeak = ST [Numeric value measured in depression]
+9. **ExerciseAngina**   : Apakah pasien mengalami angina yang dipicu oleh latihan (Y: Ya, N: Tidak)._`int64`_
 
-  **11. ST_Slope** : the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+10. **Oldpeak**   : Nilai depresi ST (numerik) yang diukur selama tes stres._`floa64`_
 
-  **12. HeartDisease** : output class [1: heart disease, 0: Normal]
+11. **ST_Slope**   : Kemiringan segmen ST pada puncak aktivitas stres (Up: Miring ke atas, Flat: Datar, Down: Miring ke bawah)._`int64`_
 
+12. **HeartDisease**   : Kelas keluaran (1: Penyakit jantung, 0: Normal)._`int64`_
 
 ## Data Preparation
 
