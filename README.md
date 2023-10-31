@@ -162,6 +162,7 @@ Berikut perintah untuk menampilkan Grafifbar ExerciseAngina  :
 sns.countplot(x="ExerciseAngina", data=df,hue="HeartDisease")
 plt.show()
 ```
+![](Eda2.png)
 
 ## Modeling
 Ditahap ini saya akan membuat feature dari semua kolom dengan perintah berikut : 
