@@ -5,7 +5,7 @@
 
 ## Domain Proyek
 
-Dijaman sekarang ini banyak masyarakat tidak memperhatikan kesehatan, dikarenakan asik bermain gadget dan memakan makanan yang cepat saji (instan) / bernilai gizi rendah, maka dari itu diperlukan adanya suatu sistem yang dapat memprediksi kesehatan jantung masyarakat dengan mudah dan akurat.
+Dizaman sekarang ini banyak masyarakat tidak memperhatikan kesehatan, dikarenakan asik bermain gadget dan memakan makanan yang cepat saji (instan) / bernilai gizi rendah, maka dari itu diperlukan adanya suatu sistem yang dapat memprediksi kesehatan jantung masyarakat dengan mudah dan akurat.
 
 ### Rubrik/Kriteria Tambahan
 Dari latar belakang yang sudah di paparkan, maka dari itu proyek ini dibuat sistem tentang prediksi kesehatan jantung
